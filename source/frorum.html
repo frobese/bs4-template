@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<!-- default base of -->
+<html class="mdl-js"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="frorum - Fachartikel von Experten">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Beiträge">
+    <meta name="twitter:description" content="frorum - Fachartikel von Experten">
+    <meta name="twitter:image" content="https://www.frobese.de/frorum/">
+    <meta property="og:image" content="https://www.frobese.de/frorum/">
+    <meta property="og:title" content="Beiträge">
+    <meta property="og:description" content="frorum - Fachartikel von Experten">
+    <meta property="og:url" content="https://www.frobese.de/frorum/post/">
+
+    
+
+    <meta name="generator" content="Hugo 0.68.3">
+
+    <title>frorum - frobese Blog | Beiträge</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.frobese.de/frorum/images/design/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.frobese.de/frorum/images/design/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.frobese.de/frorum/images/design/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://www.frobese.de/frorum/images/design/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://www.frobese.de/frorum/images/design/favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+    
+    
+    
+
+    
+    
+    
+
+
+    <link rel="stylesheet" href="frorum_files/css.css">
+    <link rel="stylesheet" href="frorum_files/material.css">
+    <link rel="stylesheet" href="frorum_files/icon.css">
+    <link rel="stylesheet" href="frorum_files/ionicons.css">
+    
+    <link rel="stylesheet" href="frorum_files/style.css" integrity="" media="screen">
+
+
+    <script type="text/javascript" src="frorum_files/jquery.js"></script>
+
+
+    
+    <script type="text/javascript" src="frorum_files/material.js"></script>
+    
+    <script type="text/javascript" src="frorum_files/cardmedia.js"></script>
+    
+    <script type="text/javascript" src="frorum_files/fabbutton.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="frorum_files/cookieconsent.css">
+    <script src="frorum_files/js.js"></script>
+    <script src="frorum_files/cookieconsent.js" data-cfasync="false"></script>
+
+    <script type="text/javascript">
+
+        if (Cookies.get("cookieconsent_status") === "allow") {
+            var _paq = window._paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function () {
+                var u = "//www.frobese.de/matomo/";
+                _paq.push(['setTrackerUrl', u + 'matomo.php']);
+                _paq.push(['setSiteId', '2']);
+            })();
+        } else {
+            $.each(Cookies.get(), function (cookieName) {
+                if (cookieName !== "cookieconsent_status") {
+                    Cookies.remove(cookieName);
+                }
+            });
+        }
+
+
+        $(document).ready(function () {
+
+            $(document).on("click", ".cc-allow", function () {
+                console.log("click");
+                window.location.reload();
+            });
+
+            $(document).on('click', '.cc-deny', function () {
+                $.each(Cookies.get(), function (cookieName) {
+                    if (cookieName !== "cookieconsent_status") {
+                        Cookies.remove(cookieName);
+                    }
+                });
+            });
+        });
+
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#2B3969"
+                    },
+                    "button": {
+                        "background": "transparent",
+                        "text": "#fff",
+                        "border": "#fff"
+                    }
+                },
+                "content": {
+                    "message": "🍪 Wir verwenden Cookies, um besser zu verstehen wie Sie frobese.de/frorum nutzen und zur kontinuierlichen Verbesserung unserer Webseite. Sie können Ihr Einverständnis jederzeit widerrufen. Weitere Informationen finden Sie in unseren&nbsp;Datenschutzbestimmungen&nbsp;.",
+                    "deny": "Ablehnen",
+                    "allow": "Zustimmen",
+                    "link": "Mehr lesen",
+                    "href": "https:\/\/www.frobese.de\/frorum\/datenschutz"
+                },
+                "type": "opt-in"
+            })
+        });
+
+    </script>
+
+    <script type="text/javascript" async="true" defer="true" src="frorum_files/matomo.js"></script>
+
+<style></style></head>
+
+
+
+<body style="background-image: url('https://www.frobese.de/frorum/images/design/2019_background.jpg');"><div class="cc-revoke cc-bottom cc-animate cc-color-override-1604632565 " style="">Cookie Policy</div><div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-opt-in cc-theme-block cc-bottom cc-color-override-1604632565 cc-invisible" style="display: none;"><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">🍪
+ Wir verwenden Cookies, um besser zu verstehen wie Sie frobese.de/frorum
+ nutzen und zur kontinuierlichen Verbesserung unserer Webseite. Sie 
+können Ihr Einverständnis jederzeit widerrufen. Weitere Informationen 
+finden Sie in unseren&nbsp;Datenschutzbestimmungen&nbsp;. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.frobese.de/frorum/datenschutz" rel="noopener noreferrer nofollow" target="_blank">Mehr lesen</a></span><div class="cc-compliance cc-highlight"><a aria-label="deny cookies" role="button" tabindex="0" class="cc-btn cc-deny">Ablehnen</a><a aria-label="allow cookies" role="button" tabindex="0" class="cc-btn cc-allow">Zustimmen</a></div><!--googleon: all--></div>
+
+<div class="mdl-layout__container has-scrolling-header"><div class="hmdl-body mdl-layout mdl-js-layout has-drawer is-upgraded is-small-screen" data-upgraded=",MaterialLayout">
+    <!-- partial navigation -->
+<header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--scroll">
+    <div class="mdl-layout__header-row">
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation">
+            
+            <a class="mdl-navigation__link" href="https://www.frobese.de/frorum/">Home</a>
+            
+            <a class="mdl-navigation__link" href="https://www.frobese.de/frorum/post/">Beiträge</a>
+            
+            <a class="mdl-navigation__link" href="https://www.frobese.de/frorum/authors/">Autoren</a>
+            
+            <a class="mdl-navigation__link" href="https://www.frobese.de/">frobese GmbH</a>
+            
+        </nav>
+        <div class="mdl-layout-spacer"></div>
+    </div>
+</header>
+<div class="mdl-layout__drawer" aria-hidden="true">
+    <nav class="mdl-navigation">
+        
+        <a class="mdl-navigation__link" href="https://www.frobese.de/frorum/">Home</a>
+        
+        <a class="mdl-navigation__link" href="https://www.frobese.de/frorum/post/">Beiträge</a>
+        
+        <a class="mdl-navigation__link" href="https://www.frobese.de/frorum/authors/">Autoren</a>
+        
+        <a class="mdl-navigation__link" href="https://www.frobese.de/">frobese GmbH</a>
+        
+    </nav>
+</div>
+
+
+
+    <div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button" style="display: block; opacity: 1;"><i class="material-icons"></i></div><div id="content" class="main mdl-layout__content">
+        <div class="hmdl-frontpage mdl-grid">
+            
+
+<div class="hmdl-list mdl-grid">
+    <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+        <div class="mdl-card__media mdl-color-text--grey-50 post-section-header">
+            <h3>Beiträge</h3>
+        </div>
+        <!-- Pagination logic -->
+
+
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/fpiepenschneider.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/fpiepenschneider">Felix Piepenscheider</a>
+            <span>31.03.2020</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20200330_fpiepenschneider_design/"><h5 class="mdl-color-text--grey-600 post-list-item-article">Kreativität, Agilität und wie es zusammenpasst</h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/rwuensch.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/rwuensch">Roland Wünsch</a>
+            <span>13.03.2020</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20200316_rwuensch_komplexe_probleme/"><h5 class="mdl-color-text--grey-600 post-list-item-article">Das Chaos beherrschen – aber wie?</h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/rgade.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/rgade">Rüdiger Gade</a>
+            <span>05.02.2020</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20200203_rgade_iam/"><h5 class="mdl-color-text--grey-600 post-list-item-article">Rollenmodelle und ihre qualitative Abhängigkeit zu nachgelagerten Prozessen im Identity- &amp; Access Management</h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/hkeller.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/hkeller">Heiko Keller</a>
+            <span>24.01.2020</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20200120_hkeller_mua/"><h5 class="mdl-color-text--grey-600 post-list-item-article">Mergers &amp; Acquisitions als Erfolgstreiber für das Unternehmen</h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/lwagner.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/lwagner">Leon Wagner</a>
+            <span>07.11.2019</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20190916_lwagner_farbkomm/"><h5 class="mdl-color-text--grey-600 post-list-item-article">Farbkonstanz und Kommunikation</h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/sschmidt.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/sschmidt">Sören Schmidt</a>
+            <span>04.09.2019</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20190819_sschmidt_bigdata/"><h5 class="mdl-color-text--grey-600 post-list-item-article">Bigdata-Streaming</h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/rlukas.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/rlukas">Ramon Lukas</a>
+            <span>13.08.2019</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20190805_rlukas_okr/"><h5 class="mdl-color-text--grey-600 post-list-item-article">OKR – Objectives and Key Results</h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/cmercier.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/cmercier">Christian Mercier</a>
+            <span>11.06.2019</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20190611_cmercier_test-agil-ext/"><h5 class="mdl-color-text--grey-600 post-list-item-article">Klassischer Test ganz neu - Agil im V-Modell</h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/nramsperger.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/nramsperger">Nils Ramsperger</a>
+            <span>13.05.2019</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20190513_nramsperger_docker/"><h5 class="mdl-color-text--grey-600 post-list-item-article">Container Virtualisierung mit Docker</h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/astrasser.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/astrasser">Artur Strasser</a>
+            <span>08.04.2019</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20190401_astrasser_agile/"><h5 class="mdl-color-text--grey-600 post-list-item-article">Herausforderungen bei der Einführung von Scrum</h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/tjungnickel.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/tjungnickel">Tobias Jungnickel</a>
+            <span>18.03.2019</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20190318_tjungnickel_pignus/"><h5 class="mdl-color-text--grey-600 post-list-item-article">Pignus - einfache PGP-Verschlüsselung auf iOS</h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/mlier.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/mlier">Martin Lier</a>
+            <span>04.03.2019</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20190304_mlier_tools/"><h5 class="mdl-color-text--grey-600 post-list-item-article">Digitalisierung - Herausforderungen auf dem Weg zum effizienten Arbeiten</h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/hkeller.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/hkeller">Heiko Keller</a>
+            <span>18.02.2019</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20190218_hkeller_liberating_structures/"><h5 class="mdl-color-text--grey-600 post-list-item-article">Mit Liberating Structures holen Sie aus Ihrem Team das Beste raus!</h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/kwitte.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/kwitte">Kai Witte</a>
+            <span>04.02.2019</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20190204_kwitte_it_compliance/"><h5 class="mdl-color-text--grey-600 post-list-item-article">IT-Compliance – Fluch, Segen und viele Chancen! </h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/jtekock.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/jtekock">Jan te Kock</a>
+            <span>21.01.2019</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20190121_jtekock_test/"><h5 class="mdl-color-text--grey-600 post-list-item-article">Qualität als Erfolgsfaktor für Softwareprojekte</h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- post list item -->
+<div class="mdl-card__list-item mdl-color-text--grey-600">
+    <div class="hmdl-page-meta post-list-item">
+        
+        <div class="minilogo" style="background-image: url('https://www.frobese.de/frorum/images/avatar/cmercier.jpg');"></div>
+        
+        <div class="post-list-item-author">
+            <a href="https://www.frobese.de/frorum/authors/cmercier">Christian Mercier</a>
+            <span>07.01.2019</span>
+        </div>
+        <div>
+            <a href="https://www.frobese.de/frorum/post/20190107_cmercier_crm/"><h5 class="mdl-color-text--grey-600 post-list-item-article">CRM richtig machen – 7 Tipps fürs Gelingen</h5></a>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- Pagination logic -->
+
+
+
+    </div>
+</div>
+
+
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="footerElement">
+        
+        <a class="mdl-button mdl-js-button mdl-button--icon mdl-mini-footer--social-btn social-btn" href="https://www.frobese.de/" target="_blank" data-upgraded=",MaterialButton">
+            <i class="material-icons_lg icon ion-md-globe"></i>
+        </a>
+        
+        <a class="mdl-button mdl-js-button mdl-button--icon mdl-mini-footer--social-btn social-btn" href="mailto:post@frobese.de" target="_blank" data-upgraded=",MaterialButton">
+            <i class="material-icons_lg icon ion-md-mail"></i>
+        </a>
+        
+        <a class="mdl-button mdl-js-button mdl-button--icon mdl-mini-footer--social-btn social-btn" href="https://www.xing.com/companies/frobesegmbhinformatikservices" target="_blank" data-upgraded=",MaterialButton">
+            <i class="material-icons_lg icon ion-logo-xing"></i>
+        </a>
+        
+        <a class="mdl-button mdl-js-button mdl-button--icon mdl-mini-footer--social-btn social-btn" href="https://github.com/frobese" target="_blank" data-upgraded=",MaterialButton">
+            <i class="material-icons_lg icon ion-logo-github"></i>
+        </a>
+        
+        <a class="mdl-button mdl-js-button mdl-button--icon mdl-mini-footer--social-btn social-btn" href="https://twitter.com/frobeseGmbH" target="_blank" data-upgraded=",MaterialButton">
+            <i class="material-icons_lg icon ion-logo-twitter"></i>
+        </a>
+        
+        <a class="mdl-button mdl-js-button mdl-button--icon mdl-mini-footer--social-btn social-btn" href="https://www.linkedin.com/company/frobese-gmbh-informatikservices/about/" target="_blank" data-upgraded=",MaterialButton">
+            <i class="material-icons_lg icon ion-logo-linkedin"></i>
+        </a>
+        
+        <a class="mdl-button mdl-js-button mdl-button--icon mdl-mini-footer--social-btn social-btn" href="https://de-de.facebook.com/frobeseGmbH/" target="_blank" data-upgraded=",MaterialButton">
+            <i class="material-icons_lg icon ion-logo-facebook"></i>
+        </a>
+        
+    </div>
+
+    <div class="copyright mdl-cell mdl-cell--12-col">
+        <a class="footer-link" href="https://www.frobese.de/frorum/impressum" target="_blank">Impressum</a>
+        <span class="copyright-text"> | </span>
+        <a class="footer-link" href="https://www.frobese.de/frorum/datenschutz" target="_blank">Datenschutz</a>
+
+        <p class="copyright-text">Copyright frobese GmbH ©
+            <script>document.write(new Date().getFullYear())</script>2020. All Rights Reserved.
+        </p>
+
+    </div>
+
+
+</footer>
+
+
+
+
+<div class="mdl-layout__obfuscator"></div></div></div>
+
+
+
+
+</body></html>
